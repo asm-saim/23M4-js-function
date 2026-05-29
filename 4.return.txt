@@ -1,0 +1,7 @@
+# Best Practice
+Use return when:
+- you need result outside function
+- you want reusable output
+
+Use console.log when:
+- only need to display output
