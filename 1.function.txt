@@ -1,0 +1,113 @@
+========================
+JavaScript Function
+========================
+
+# Function
+A function is a reusable block of code.
+
+# Why Use Function?
+- Avoid repeating code
+- Make code reusable
+- Keep code organized
+
+# Function Syntax
+function functionName() {
+    // code
+}
+
+# Example 1
+function hello() {
+    console.log("This is function chapter");
+    console.log("We will clear all concepts");
+    console.log("We reuse the function");
+}
+
+hello();
+
+# Output
+This is function chapter
+We will clear all concepts
+We reuse the function
+
+# Function with Variable
+function machine() {
+    let r = "North Face";
+    console.log(r);
+}
+
+machine();
+
+# Parameters
+Parameters receive values during function call.
+
+Syntax:
+function name(parameter1, parameter2) {
+    // code
+}
+
+# Example
+function sumResult(a, b) {
+    let r = a + b;
+    console.log(r);
+}
+
+sumResult(20, 13);
+
+Output:
+33
+
+# Arguments
+Values passed during function call.
+
+Example:
+sumResult(20, 13);
+
+20 and 13 are arguments.
+
+# return
+return sends a value from inside function to outside.
+
+# Example
+function division(input1, input2) {
+    let div = input1 / input2;
+    return div;
+}
+
+let result = division(100, 10);
+
+console.log(result);
+
+Output:
+10
+
+# Difference: console.log vs return
+
+console.log():
+- prints output only
+
+return:
+- sends value outside function
+- can store result in variable
+
+# Function Naming Best Practice
+Use meaningful names.
+
+Good:
+sumResult()
+division()
+
+Avoid:
+x()
+abc()
+
+
+==========================
+Summary: function vs loop
+==========================
+
+Feature             Function                     Loop
+------------------------------------------------------------
+Purpose             Reuse code                  Repeat code
+Executes            When called                 Until condition fails
+Repetition          Optional                    Main purpose
+Input support       Parameters                  Usually counter/condition
