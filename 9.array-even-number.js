@@ -30,3 +30,5 @@ let allArrays=[22,55,7,99,33,226,88,23,53]
 let fResult=evenSum(allArrays);
 console.log(fResult);
 
+
+

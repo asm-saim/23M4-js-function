@@ -5,3 +5,5 @@ Use return when:
 
 Use console.log when:
 - only need to display output
+
+#if there's no return, JavaScript automatically gives back undefined
